@@ -17,3 +17,11 @@ keytool -genkeypair -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2
 
 
 Now Copy this file "test-ssl-key.p12" into src/main/resources folder.
+
+
+#Make Application to support both HTTP (8081) and HTTPS (8082)
+#http.port=8081
+#server.port=8082
+#server.ssl.key-password=****jkspassword***
+#server.ssl.key-store=classpath:applicationssl.jks
+#server.ssl.key-store-type=JKS
