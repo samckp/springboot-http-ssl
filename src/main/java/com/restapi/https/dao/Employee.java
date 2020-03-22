@@ -9,6 +9,14 @@ import javax.validation.constraints.Size;
 @Table(name="EMPLOYEE")
 public class Employee {
 
+    public Employee(){}
+
+    public Employee(@Size(min = 2, message = "Employee Name should be more than 2 Characters !!") String name, @Min(1000) @Max(9999) Integer salary, String department) {
+        this.name = name;
+        this.salary = salary;
+        this.department = department;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
