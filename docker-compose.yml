@@ -1,0 +1,5 @@
+version: '2'
+services:
+  sslRestApi:
+    image: shyamusharma/restapi-ssl:latest
+    container_name: sslRestApi

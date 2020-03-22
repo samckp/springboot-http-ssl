@@ -8,9 +8,9 @@
 		<version>2.2.5.RELEASE</version>
 	</parent>
 	<groupId>com.restapi.https</groupId>
-	<artifactId>https-restapu-demo</artifactId>
+	<artifactId>https-restapi-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>https-restapu-demo</name>
+	<name>https-restapi-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
