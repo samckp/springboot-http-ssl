@@ -18,3 +18,8 @@ keytool -genkeypair -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2
 
 Now Copy this file "test-ssl-key.p12" into src/main/resources folder.
  
+#H2 Database url
+https://localhost:9090/h2/
+
+#Swagger-UI url 
+https://localhost:9090/swagger-ui.html# 
